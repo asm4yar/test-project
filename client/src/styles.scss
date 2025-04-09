@@ -218,7 +218,7 @@ ul, li {
 .list {
   padding: 16px;
 
-  & > li:not(:last-child) {
+  & > li:not(:first-child) {
     margin-top: 8px;
   }
 }
@@ -250,7 +250,6 @@ ul, li {
 
 .list-item__description {
   text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
 .list-item-actions {
@@ -258,3 +257,19 @@ ul, li {
   justify-content: space-between;
   align-items: center;
 }
+
+.loading {
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+}
+
+.error {
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #ff0000;
+}
+
+
